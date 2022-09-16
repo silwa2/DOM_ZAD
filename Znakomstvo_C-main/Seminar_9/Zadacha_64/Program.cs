@@ -8,11 +8,11 @@
 
 
 Console.Write("Введите число M: ");
-int m = Convert.ToInt32(Console.WriteLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N: ");
-int n = Convert.ToInt32(Console.WriteLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
-string PrintFromMtoN(int m, int n)
+string PrintFromMtoN(int a, int b)
 {
 if (a > b)
 {
@@ -25,3 +25,4 @@ if (a == b) return Convert.ToString(a);
 return a + " " + PrintFromMtoN(a + 1, b);
 }
 }
+Console.Write(PrintFromMtoN(a,b));

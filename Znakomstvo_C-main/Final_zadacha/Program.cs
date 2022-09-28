@@ -26,6 +26,12 @@ do
     } 
     while (s != "");
 
- 
+    for (int i = 0; i < AS.Length; i++)
+      
+      if (AS[i].Length>2)
+      {
+        Console.Write(AS[i] + " ");
+      }
+      Console.ReadKey();
 
 

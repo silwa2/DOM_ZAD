@@ -45,7 +45,7 @@
 
 ## 3. Вывод массива строк AS в цикле
       for (int i = 0; i < AS.Length; i++)
-        Console.WriteLine("AS[{0}] = {1}", i, AS[i]);
+        Console.WriteLine(AS[i]);
       Console.ReadKey();
     }
   }
